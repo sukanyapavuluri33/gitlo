@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JAVASCRIPT DEMO</title>
+        <style>
+            .change{
+                text-emphasis-color:;
+                background-color:cyan;  
+                width:200px;
+                height:260px;
+            }
+        </style>
+    </head>
+    <body>
+        <div  class="change" >This is first javascript application</div>
+        |<button class="change" onclick="my()">INFO</button>
+        <script>
+            function my{
+                document.getElementsByClassName("change").style.display:"block"
+            }
+            
+        </script>
+    </body></html>
